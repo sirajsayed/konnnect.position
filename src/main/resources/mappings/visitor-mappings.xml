@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net 
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping>
+		<class-a>com.konnnect.visitor.model.VisitorRecord</class-a>
+		<class-b>com.konnnect.visitor.dto.VisitorRecordDTO</class-b>
+		<field>
+			<a>id.uuid</a>
+			<b>uuid</b>
+		</field>
+		<field>
+			<a>id.attributeId</a>
+			<b>attrId</b>
+		</field>
+		<field>
+			<a>attributeValue</a>
+			<b>attrValue</b>
+		</field>
+	</mapping>
+
+</mappings>
