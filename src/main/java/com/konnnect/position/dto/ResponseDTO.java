@@ -13,9 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ResponseDTO {
-		
-	public ReviewsDTO review_platforms;
-	
+			
 	public PositionDTO position;
 	
 	public String message;
