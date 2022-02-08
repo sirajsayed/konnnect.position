@@ -3,22 +3,15 @@ package com.konnnect.position.service;
 import java.sql.Connection;
 import java.util.UUID;
 
-import org.json.simple.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
-import com.konnnect.exception.KonnnectException;
 import com.konnnect.position.dto.ResponseDTO;
-import com.konnnect.position.dto.ReviewsDTO;
-import com.konnnect.profile.ProfileAttributes;
-import com.konnnect.profile.ProfileDBM;
-import com.konnnect.profile.ProfileDTO;
-import com.konnnect.common.GeneralUtils;
 import com.konnnect.common.position.PositionDBM;
 import com.konnnect.common.position.PositionDTO;
-import com.konnnect.database.TransactionManager;
+import com.konnnect.common.database.TransactionManager;
 
 @Service
 public class Position extends TransactionManager  {

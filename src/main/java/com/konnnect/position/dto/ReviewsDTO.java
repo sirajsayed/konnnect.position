@@ -7,8 +7,8 @@ import java.util.List;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import com.konnnect.common.GeneralUtils;
-import com.konnnect.exception.KonnnectException;
+import com.konnnect.common.utilities.GeneralUtils;
+import com.konnnect.common.exception.KonnnectException;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
